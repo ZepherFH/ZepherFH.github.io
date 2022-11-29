@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head><!--En la etiqueta head se hace la declaración de otras más que nos ayudarán en la escritura,
+    estilo y titulo que llevará nuestra página-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="CSS/Style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="block header"><!--La parte que será el encabezado se declara con la etiqueta header-->
+        <div class="cent"><!--La declaración class es un elemento que permite la manipulación de objetos por
+        medio de JS o CSS-->
+            <div class="log"><!--div nos permite crear secciones dentro de nuestra página-->
+                <h2>ZFactory | Music</h2><!--Encabezado, el número nos indica un orden de mayor a menor tamaño, 
+                    siendo 1 el mayor-->
+            </div>
+                <nav class="menu">
+                    <ul><!--Listado-->
+                        <li><a href="">Inicio</a></li>
+                        <li><a href="">Suscripciones</a></li>
+                        <li><a href="">Música</a></li>
+                        <li><a href="">Contacto</a></li>
+                        <li><a href="">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </nav>
+        </div>
+        <div class="cent">
+            <div class="izq">
+                <h4 class="sub">Sigue el ritmo a donde vayas</h4><br>
+                <h1 class="maintitle">ZFactory | Music</h1><br>
+                <br>
+                <p class="desc"><!--Párrafo, básicamente introduces texto que puedes ir modificando con atributos
+                como alinear-->
+                    Disfruta de una gran cantidad de música a donde quiera vayas, 
+                    desde la decada de los 70's hasta la actualidad ZFactoryt te hace compañia con 
+                    tus melodias favoritas. ¡Lleva el ritmo que más desees! ¡Qué el mundo conozca
+                    un poco de ti y tus artistas favoritos! 
+                </p>
+                <br><br>
+                <input type="submit" name="suscripcion" value="¡Suscribete!" class="boton">
+            </div>
+            <div class="der">
+                <img src="IMG/Música.jpg" class="imgpress"><!--Inserta una imagen-->
+            </div>
+        </div>
+    </header>
+    <div class="block"><br>
+        <div class="cent">
+            <div class="izq"><br><br>
+                <img src="IMG/listen.jpg" class="imgpress">
+            </div>
+            <div class="der">
+                <h4 class="textc1">- Expande tus gustos -</h4>
+                <h1>| Escucha lo que quieras |</h1> <br>
+                <table class="tab" border="1"><!--Tabla, permite introducir datos de manera más ordenada y fácil-->
+                    <tr><td>Artista</td><td>Canción</td><td>¡Dale Play!</td></tr>
+                    <tr><td>ABBA</td><td> Gimme! Gimme! Gimme! A Man After Midnight <td><audio src="Music/ABBA - Gimme! Gimme! Gimme! A Man After Midnight.mp3" controls></audio></td></td></tr>
+                    <tr><td>Fable</td><td>Fake <td><audio src="Music/Fable - Fake.mp3" controls></audio></td></td></tr>
+                    <tr><td>One OK Rock</td><td>Remake <td><audio src="Music/ONE OK ROCK - Remake.mp3" controls></audio></td></td></tr>
+                    <tr><td>Theory of Deadman</td><td>All or Nothing <td><audio src="Music/Theory of a Deadman - All or Nothing.mp3" controls></audio></td> </td></tr>
+                </table><br><!--Dentro de la tabla tambien se observa la etiqueta audio, la cual introduce 
+                un archivo de tipo audio, dando la posibilidad de tener música dentro de nuestra página-->
+            </div>
+        </div>
+    </div>
+    <div class=" block forms">
+        <div class="cent">
+            <h4>¿Deseas registrarte?</h4>
+            <h1>¡Házlo aquí y ahora!</h1><br><br>
+            <div class="ntfsub"><!--Input una etiqueta que permite insetar objetos para formularios-->
+                <input type="text" name="nombre" class="entnot" placeholder="Nombre:">
+                <input type="email" name="email" class="entnot" placeholder="Correo:">
+                <input type="submit" name="acept" value="Subscribirse" class="btnnot">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

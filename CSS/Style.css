@@ -1,0 +1,135 @@
+*{
+    margin: 0; padding: 0;
+}
+/* Modifica el estilo de letras de nuestro archivo */ 
+body{
+    font-family: 'Oswald', sans-serif;
+}
+/* Controla el tamao de los bloques */ 
+.block{ 
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+/* Se encarga de dar diseo al primer bloque, en este caso el encabezado */ 
+.header{ 
+    background-color: #370566;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+/* Modifica los valores de alineación para todos los bloques interiores de los bloques principales */ 
+.cent{ 
+    width: 85%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid white;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+/* Se encarga del bloque donde alojamos el nombre del sitio */ 
+.log{
+    color: #c1c1c1; margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+/* Da formato al listado para que se convierta en un menú */ 
+.menu{
+    width: 50%;
+    float: right;
+    border: 0px solid #fff;
+    background-color: #0d5466;
+    border-radius: 7px;
+}
+.menu ul{}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+/*Diseño de bloque izquierdo y derecho*/
+.izq, .der{
+    width: 45%;
+    height: auto; overflow: hidden;
+    border: 0px solid#fff;
+    display: inline-block;
+}
+.izq{ 
+    float: center; 
+    text-align: left;
+}
+.der{ 
+    float: right;
+}
+/*Formato del texto, el titulo, la descripcion, imagen y el botón que esta al inicio de la página*/
+.sub{
+    color: #fff;
+}
+.maintitle{
+    color: #fff;
+    font-size: 60px;
+}
+.desc{
+    color: #c1c1c1;
+    font-weight: 400;
+}
+.boton{
+    padding: 17px 35px;
+    background-color: #0d5466;
+    color: #fff;
+    border-radius: 7px;
+    border: 0px;
+}
+.imgpress{
+    width: 50%;
+}
+/*En esta parte se hace lo mismo, solo que en el segundo bloque*/
+.textc1{
+    color: purple;
+}
+.tab{
+    text-align: center;
+    border: 1px solid black;
+    width: auto;
+}
+/*Formulario*/
+.forms{
+    height: auto;
+    overflow: hidden;
+    background-color: #0e385a;
+    padding: 50px 0px;
+}
+.forms h4 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.ntfsub{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.entnot{
+    width: 35%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0px;
+}
+.btnnot{
+    padding: 17px 35px;
+    background-color: #0d5466;
+    color: #fff;
+    border: 0px;
+    border-radius: 8px;
+}
+.btnnot:hover{
+    background-color: #1d92af;
+}
+
+
